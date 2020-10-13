@@ -7,13 +7,13 @@ variable "db_remote_state_bucket" {
 variable "db_remote_state_key" {
   description = "the name of the key in the s3 bucket used for the database's remote state storage"
   type        = string
-  default     = "keypath"
+  default     = "stage/data-stores/mysql/terraform.tfstate"
 }
 
 variable "server_port" {
   description = "the port the server will use for HTTP request"
   type        = number
-  default     = 8080
+  default     = 80
 }
 
 variable "alb_name" {

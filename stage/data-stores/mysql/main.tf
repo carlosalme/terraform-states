@@ -3,7 +3,7 @@ terraform {
     # bucket = "bucketname"
     # key = "stage/data-stores/mysql/terraform.tfstate"
     # region = "us-east-2"
-    # dynamodb_table = "tablename"
+    # dynamodb_table = "dinamotable"
     # encrypt = true
   }
 }
